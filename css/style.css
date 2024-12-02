@@ -10,8 +10,10 @@
     /* --checkmark:&#10003 */
     /* --xmark:&#x2718 */
 }
-body{
+html{
     font-family: "Lato", sans-serif;
+}
+body{
     background-color: var(--body-color);
 }
 .container{
@@ -35,30 +37,34 @@ body{
 .third-item{
     background-color: var(--third-item);
 }
+/* header css part */
 header{
-    height: 200px;
     flex-direction: column;
     padding: 10px;
 }
-header .first-item .first-position{
+header div.first-item.second-father.first-position{
     flex-basis: 30%;
-    padding: 10px;
+    padding-inline: 10px;
+    padding-bottom: 20px;
+    justify-content: space-around;
+    flex-direction: row;
 }
-header .first-item .secon-position{
+header div.second-item.third-father{
+    gap: 10px;
+    padding: 5px;
+}
+header div.first-item.second-father.second-position{
     flex-basis: 70%;
-    padding: 10px;
-}
-header .first-item .second-father .first-position{
-    justify-content: space-around;
-    flex-direction: row;
-    padding: 5px;
-}
-header .second-item .third-father{
-    justify-content: space-around;
-    flex-direction: row;
-    padding: 5px;
-}
-header .first-item .second-father .second-position{
+    padding-inline: 10px;
     flex-direction: column;
-    padding: 5px;
+    align-items: center;
+    padding-block: 20px;
 }
+#header-text{
+    padding-inline: 30%;
+}
+header div.first-item.second-father.second-position div.second-item.third-father{
+    padding: 5px;
+    gap: 5px;
+}
+/* main css part */
