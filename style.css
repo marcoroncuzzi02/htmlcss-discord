@@ -1,5 +1,5 @@
 :root{
-    --body-color: #a2a6a8;
+    --body-color: #cacccd;
     --first-father: #47ADF1;
     --secon-father: #9C72E4;
     --third-father: #64C0A9;
@@ -19,7 +19,7 @@ body{
 .container{
     display: flex;
 }
-.first-father{
+/* .first-father{
     background-color: var(--first-father);
 }
 .second-father{
@@ -36,11 +36,14 @@ body{
 }
 .third-item{
     background-color: var(--third-item);
-}
+} */
 /* header css part */
 header{
     flex-direction: column;
-    padding: 10px;
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
 }
 header div.first-item.second-father.first-position{
     flex-basis: 30%;
@@ -58,77 +61,98 @@ header div.first-item.second-father.second-position{
     padding-inline: 10px;
     flex-direction: column;
     align-items: center;
-    padding-block: 10px;
+    padding-block: 60px;
+    gap:10px
 }
-#header-text{
+#header-p{
+    text-align: center;
     padding-inline: 30%;
+}
+#header-title{
+    padding-block: 30px;
 }
 header div.first-item.second-father.second-position div.second-item.third-father{
     padding: 5px;
     gap: 5px;
 }
+#first-button-header{
+    border-radius: 50px;
+    padding:10px
+}
+#second-button-header{
+    border-radius: 50px;
+    background-color: #23272a;
+    padding: 10px;
+    color: white;
+}
+
 /* main css part */
 main {
     flex-direction: column;
-    padding: 10px;
 }
 main div.first-item.second-father.first-position{
     justify-content: center;
-    padding-inline: 30%;
+    padding-inline: 10%;
     padding-block: 10px;
+    background-color: white;
 }
 main div.second-item.third-father.first-position{
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    flex-wrap: wrap;
+    flex-basis: 20%;
 }
 #main-first-img{
-    flex-basis:60% ;
+    text-align: center;
+    display: block;
+    width:400px
 }
 #main-first-p{
     padding-top: 20px;
     font-size: 70%;
-    padding-inline: 30%;
 }
 main div.first-item.second-father.second-position{
     justify-content: center;
-    padding-inline: 30%;
+    padding-inline: 10%;
     padding-block: 10px;
 }
 main div.second-item.third-father.second-position{
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    flex-wrap: wrap;
+    flex-basis: 20%;
 }
 #main-second-img{
-    flex-basis:60%
+    text-align: center;
+    display: block;
+    width:400px
 }
 #main-second-p{
     padding-top: 20px;
     font-size: 70%;  
-    padding-inline: 30%; 
 }
 main div.first-item.second-father.third-position{
     justify-content: center;
-    padding-inline: 30%;
+    padding-inline: 10%;
     padding-block: 10px;
+    background-color: white;
 }
 main div.second-item.third-father.third-position{
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    flex-wrap: wrap;
+    flex-basis: 20%;
 }
 #main-third-img{
-    flex-basis:60%
+    text-align: center;
+    display: block;
+    width:400px
 }
 #main-third-p{
     padding-top: 20px;
-    font-size: 70%;  
-    padding-inline: 30%; 
+    font-size: 70%;
 }
 main div.first-item.second-father.quarter-position{
-    justify-content: center;
-    padding-inline: 30%;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 10%;
     padding-block: 10px;
 }
 main div.second-item.third-father.quarter-position{
@@ -137,7 +161,8 @@ main div.second-item.third-father.quarter-position{
     text-align: center;
 }
 #main-quarter-img{
-    flex-basis:60%
+    text-align: center;
+    display: block;
 }
 #main-quarter-p{
     padding-top: 20px;
@@ -149,14 +174,20 @@ main div.first-item.second-father.fifth-position{
     flex-direction: column;
     align-items: center;
     padding-block: 10px;
+    gap: 10px;
 }
 #main-button{
-    padding-block: 10px;
+        border-radius: 50px;
+        background-color: #206ea9;
+        padding: 10px;
+        color: white;
 }
 /* footer css part */
 footer {
     flex-direction: column;
     padding: 10px;
+    background-color:#23272a ;
+    color: white;
 }
 footer div.first-item.second-father.first-position{
    padding-block: 10px;
@@ -167,41 +198,56 @@ footer div.second-item.third-father.first-position{
     padding-block: 10px;
     padding-inline: 2%;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
 }
 footer div.third-item.quarter-father.first-position{
     justify-content: space-between;
     padding-block: 10px;
     padding-inline: 2%;
-    gap: 5px;
 }
 footer div.second-item.third-father.second-position{
     flex-direction: column;
     padding-block: 10px;
     padding-inline: 2%;
-    gap: 5px;
+    gap: 20px;
 }
 footer div.second-item.third-father.third-position{
     flex-direction: column;
     padding-block: 10px;
     padding-inline: 2%;
-    gap: 5px;
+    gap: 20px;
 }
 footer div.second-item.third-father.quarter-position{
     flex-direction: column;
     padding-block: 10px;
     padding-inline: 2%;
-    gap: 5px;
+    gap: 30px;
 }
 footer div.second-item.third-father.fifth-position{
     flex-direction: column;
     padding-block: 10px;
     padding-inline: 2%;
-    gap: 5px;
+   gap: 20px;
 }
 footer div.first-item.second-father.second-position{
     justify-content: space-between;
     padding-block: 10px;
     padding-inline: 2%;
-    border-top: 1px solid black;
+    border-top: 1px solid #206ea9;
+}
+footer h3{
+    color: #206ea9;
+}
+footer div.second-item.third-father :first-child{
+    color: #206ea9;
+    font-weight: bold;
+}
+#footer-logo{
+    display: block;
+}
+#footer-button{
+    border-radius: 50px;
+    background-color: #206ea9;
+    padding: 10px;
+    color: white;
 }

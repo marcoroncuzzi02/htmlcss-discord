@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discord</title>
-    <link rel="stylesheet" href=".//css/style.css">
+    <link rel="stylesheet" href="style.css">
 
     <link rel="stylesheet" href=".//css/reset.css">
 
-    <link rel="stylesheet" href=".//css/debug.css">
+    <!-- <link rel="stylesheet" href=".//css/debug.css"> -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +19,7 @@
     <header class="container first-father">
         <!-- this div have 3 vertical blocks in row-->
         <div class="container first-item second-father first-position">
-            <div class="second-item">Discord</div>
+            <div class="second-item"><img src=".//img/logo.svg" alt=""></div>
             <!-- this div have 5 vertical block in a row -->
             <div class="container second-item third-father ">
                 <div class="third-item">scarica</div>
@@ -32,15 +32,15 @@
         </div>
         <!-- here start a div that have 3 horizontal blocks in column-->
         <div class="container first-item second-father second-position">
-            <div class="second-item"><h2>il tuo posto per parlare</h2></div>
-            <div class="second-item" id="header-text">the tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o semplicemente di un picŒ'lo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ognipiorno e ritrovarsi più spesso.</div>
+            <div class="second-item" id="header-title"><h2>il tuo posto per parlare</h2></div>
+            <div class="second-item" id="header-p">the tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o semplicemente di un picŒ'lo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ognipiorno e ritrovarsi più spesso.</div>
             <!-- here start a div that have 2 horizontal block in a row -->
             <div class="container second-item third-father">
                 <div class="third-item">
-                    <button>scarica per mac</button>
+                    <button id="first-button-header">&#129059 scarica per mac</button>
                 </div>
                 <div class="third-item">
-                    <button>apri discord nel tuo browser</button>
+                    <button id="second-button-header">&#129059; apri discord nel tuo browser</button>
                 </div>
             </div>
         </div>
@@ -49,10 +49,8 @@
     <main class="container first-father">
         <!-- this div have a split structure of 2 blocks in a row -->
         <div class="container first-item second-father first-position">
-            <div class="second-item" id="main-first-img">
-                <figure>
-                    img
-                </figure>
+            <div class="second-item">
+                <img id="main-first-img" src=".//img/item1.svg" alt="">
             </div>
             <!-- this div si a container, have 2 horizontal block in column -->
             <div class="container second-item third-father first-position">
@@ -67,11 +65,13 @@
                 <div class="third-item"><h2>dove trovarsi è facile</h2></div>
                 <div class="third-item" id="main-second-p">Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che sei li e unirsi istantaneamente senza dover chiamare.</div>
             </div>
-            <div class="second-item" id="main-second-img">img</div>
+            <div class="second-item">
+                <img id="main-second-img" src="./img/item2.svg" alt="">
+            </div>
         </div>
         <!-- this div have a split structure of 2 blocks in a row -->
         <div class="container first-item second-father third-position">
-            <div class="second-item" id="main-third-img">img</div>
+            <div class="second-item"><img id="main-third-img" src=".//img/item3.svg" alt=""></div>
             <!-- this div si a container, have 2 horizontal div in column inside -->
             <div class="container second-item third-father third-position">
                 <div class="third-item"><h2>da pochi a un fandom</h2></div>
@@ -85,13 +85,13 @@
                 <div class="third-item"><h2>tecnologia affidabile per tenrsi in contatto</h2></div>
                 <div class="third-item" id="main-quarter-p">Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.</div>
             </div>
-            <div class="second-item" id="main-quarter-img">img</div>
+            <div class="second-item" ><img id="main-quarter-img" src=".//img/item4-big.svg" alt=""></div>
         </div>
         <!-- this div si a container, have 2 horizontal div in column inside -->
         <div class="container first-item second-father fifth-position">
             <div class="second-item"><h2>pronto a iniziare la tua avventura?</h2></div>
-            <div class="second-item" id="main-button">
-                <button>scarica per mac</button>
+            <div class="second-item">
+                <button id="main-button">&#129059 scarica per mac</button>
             </div>
         </div>
     </main>
@@ -102,7 +102,7 @@
             <!-- this div is a container, have inside 3 horizontal blocks in a column -->
             <div class="container second-item third-father first-position">
                 <div class="third-item"><h3>il tuo posto per parlare</h3></div>
-                <div class="third-item">italiano</div>
+                <div class="third-item"><img width="20px" src="./img/ita.png" alt=""> italiano 	&#11193;</div>
                 <!-- this div is a container, have inside 4 vertical blocks in a row -->
                 <div class="container third-item quarter-father first-position">
                     <div class="quarter-item">logo</div>
@@ -154,8 +154,8 @@
             </div>
         </div>
         <div class="container first-item second-father second-position">
-            <div class="second-item">discord</div>
-            <div class="second-item"><button>registrati</button></div>
+            <div class="second-item"><img id="footer-logo" src=".//img/logo.svg" alt=""></div>
+            <div class="second-item"><button id="footer-button">registrati</button></div>
         </div>
         
     </footer>
