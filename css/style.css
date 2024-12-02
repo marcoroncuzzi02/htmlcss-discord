@@ -45,7 +45,7 @@ header{
 header div.first-item.second-father.first-position{
     flex-basis: 30%;
     padding-inline: 10px;
-    padding-bottom: 20px;
+    padding-block: 10px;
     justify-content: space-around;
     flex-direction: row;
 }
@@ -58,7 +58,7 @@ header div.first-item.second-father.second-position{
     padding-inline: 10px;
     flex-direction: column;
     align-items: center;
-    padding-block: 20px;
+    padding-block: 10px;
 }
 #header-text{
     padding-inline: 30%;
@@ -68,3 +68,89 @@ header div.first-item.second-father.second-position div.second-item.third-father
     gap: 5px;
 }
 /* main css part */
+main {
+    flex-direction: column;
+    padding: 10px;
+}
+main div.first-item.second-father.first-position{
+    justify-content: center;
+    padding-inline: 30%;
+    padding-block: 10px;
+}
+main div.second-item.third-father.first-position{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#main-first-img{
+    flex-basis:60% ;
+}
+#main-first-p{
+    padding-top: 20px;
+    font-size: 70%;
+    padding-inline: 30%;
+}
+main div.first-item.second-father.second-position{
+    justify-content: center;
+    padding-inline: 30%;
+    padding-block: 10px;
+}
+main div.second-item.third-father.second-position{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#main-second-img{
+    flex-basis:60%
+}
+#main-second-p{
+    padding-top: 20px;
+    font-size: 70%;  
+    padding-inline: 30%; 
+}
+main div.first-item.second-father.third-position{
+    justify-content: center;
+    padding-inline: 30%;
+    padding-block: 10px;
+}
+main div.second-item.third-father.third-position{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#main-third-img{
+    flex-basis:60%
+}
+#main-third-p{
+    padding-top: 20px;
+    font-size: 70%;  
+    padding-inline: 30%; 
+}
+main div.first-item.second-father.quarter-position{
+    justify-content: center;
+    padding-inline: 30%;
+    padding-block: 10px;
+}
+main div.second-item.third-father.quarter-position{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#main-quarter-img{
+    flex-basis:60%
+}
+#main-quarter-p{
+    padding-top: 20px;
+    font-size: 70%;  
+    padding-inline: 30%; 
+}
+main div.first-item.second-father.fifth-position{
+    padding-inline: 30%;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 10px;
+}
+#main-button{
+    padding-block: 10px;
+}
+/* footer css part */
