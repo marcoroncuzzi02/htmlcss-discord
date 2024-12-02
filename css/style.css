@@ -154,3 +154,54 @@ main div.first-item.second-father.fifth-position{
     padding-block: 10px;
 }
 /* footer css part */
+footer {
+    flex-direction: column;
+    padding: 10px;
+}
+footer div.first-item.second-father.first-position{
+   padding-block: 10px;
+   padding-inline: 2%;
+   justify-content: space-between;
+}
+footer div.second-item.third-father.first-position{
+    padding-block: 10px;
+    padding-inline: 2%;
+    flex-direction: column;
+    gap: 5px;
+}
+footer div.third-item.quarter-father.first-position{
+    justify-content: space-between;
+    padding-block: 10px;
+    padding-inline: 2%;
+    gap: 5px;
+}
+footer div.second-item.third-father.second-position{
+    flex-direction: column;
+    padding-block: 10px;
+    padding-inline: 2%;
+    gap: 5px;
+}
+footer div.second-item.third-father.third-position{
+    flex-direction: column;
+    padding-block: 10px;
+    padding-inline: 2%;
+    gap: 5px;
+}
+footer div.second-item.third-father.quarter-position{
+    flex-direction: column;
+    padding-block: 10px;
+    padding-inline: 2%;
+    gap: 5px;
+}
+footer div.second-item.third-father.fifth-position{
+    flex-direction: column;
+    padding-block: 10px;
+    padding-inline: 2%;
+    gap: 5px;
+}
+footer div.first-item.second-father.second-position{
+    justify-content: space-between;
+    padding-block: 10px;
+    padding-inline: 2%;
+    border-top: 1px solid black;
+}
